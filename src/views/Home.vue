@@ -18,8 +18,8 @@
           >&nbsp;<vue-typer
             v-if="typed"
             :repeat="0"
-            pre-type-delay="1000"
-            type-delay="50"
+            pre-type-delay="1500"
+            type-delay="70"
             @typed="onTyped"
             text="and I am a web developer."
           ></vue-typer
