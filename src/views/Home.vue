@@ -4,7 +4,8 @@
       <h1 class="content__title">
         Hello, <span class="content__title__span--3">my name is</span> <br />
         <span class="content__title__span--1"
-          ><vue-typer
+          >&nbsp;
+          <vue-typer
             :repeat="0"
             pre-type-delay="1000"
             type-delay="100"
@@ -14,7 +15,7 @@
         ></span>
         <br />
         <span class="content__title__span--2"
-          ><vue-typer
+          >&nbsp;<vue-typer
             v-if="typed"
             :repeat="0"
             pre-type-delay="1000"
