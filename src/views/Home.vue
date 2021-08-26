@@ -7,8 +7,8 @@
           >&nbsp;
           <vue-typer
             :repeat="0"
-            pre-type-delay="1000"
-            type-delay="100"
+            :pre-type-delay="1000"
+            :type-delay="100"
             @typed="onTyped"
             text="Kody Van Sloten"
           ></vue-typer
@@ -18,8 +18,8 @@
           >&nbsp;<vue-typer
             v-if="typed"
             :repeat="0"
-            pre-type-delay="1500"
-            type-delay="70"
+            :pre-type-delay="1500"
+            :type-delay="70"
             @typed="onTyped"
             text="and I am a web developer."
           ></vue-typer
