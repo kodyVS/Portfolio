@@ -109,6 +109,11 @@ export default {
       margin-right: 0rem;
     }
     margin: 4rem 0 0 0;
+
+    &__back-button {
+      margin-bottom: 4rem;
+      margin-left: 4rem;
+    }
   }
 }
 </style>
