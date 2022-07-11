@@ -20,7 +20,7 @@ html {
 }
 .gear-image {
   z-index: -1;
-  opacity: 20%;
+  opacity: 0.2;
   height: 700px;
   position: fixed;
   top: 0;
@@ -30,7 +30,7 @@ html {
 }
 .gear-image2 {
   z-index: -1;
-  opacity: 20%;
+  opacity: 0.2;
   height: 700px;
   position: fixed;
   top: 550px;
