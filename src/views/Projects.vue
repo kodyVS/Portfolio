@@ -49,14 +49,13 @@ export default {
         {
           image: "DiscordBot.png",
           title: "Programming Server Bot",
-          description:
-            "A magnificent bot built by a group for my programming discord server.",
+          description: "A magnificent bot built by a group for my programming discord server.",
           tags: ["Python"],
           link: "https://github.com/kodyVS/Discord-Bot-Development",
           github: true,
         },
         {
-          image: "CFR-2.png",
+          image: "CambodiaFoodReview.png",
           title: "Cambodia Food Reviews",
           description:
             "Headless CMS blog built with Nuxt and Ghost. Used for blogging food adventures in Cambodia.",
