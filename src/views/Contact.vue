@@ -10,18 +10,19 @@
           I will get back to you as soon as I can.
         </p>
         <div class="links">
-          <Github
-            @click="goToRepo('https://github.com/kodyVS')"
-            class="contact__icon contact__icon--github"
-          ></Github>
+          <div class="github" @click="goToRepo('https://github.com/kodyVS')">
+            <Github class="contact__icon contact__icon--github"></Github>
+          </div>
+          <div
+            class="linkedin"
+            @click="goToRepo('https://www.linkedin.com/in/kody-van-sloten-b586b8176/')"
+          >
+            <Linkedin class="contact__icon contact__icon--github"></Linkedin>
+          </div>
         </div>
       </div>
       <div class="right">
-        <form
-          action="https://formsubmit.co/kodyvansloten1@gmail.com"
-          method="POST"
-          class="form"
-        >
+        <form action="https://formsubmit.co/kodyvansloten1@gmail.com" method="POST" class="form">
           <!-- Name -->
           <input
             class="form__input form__input--1"
@@ -60,12 +61,12 @@
 <script>
 import Button from "@/components/Button.vue";
 import Github from "@/views/SVGIcons/Github.vue";
-// import Linkedin from "@/views/SVGIcons/Linkedin.vue";
+import Linkedin from "@/views/SVGIcons/Linkedin.vue";
 export default {
   components: {
     Button,
     Github,
-    // Linkedin,
+    Linkedin,
   },
   data() {
     return {
@@ -90,9 +91,8 @@ export default {
   },
   methods: {
     goToRepo(link) {
-      if (link) {
-        window.open(link);
-      }
+      console.log("hello", window);
+      window.open(link);
     },
   },
 };
@@ -115,11 +115,11 @@ export default {
     margin-bottom: 3rem;
   }
   &__description {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: rgb(88, 88, 88);
   }
   &__icon {
-    padding: 1.5rem;
+    padding: 1rem 1.8rem 1rem 0rem;
     height: 3rem;
     width: 3rem;
     opacity: 0.8;
@@ -152,6 +152,12 @@ export default {
       transform: translateY(-2px);
       box-shadow: 0 7px 14px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
     }
+  }
+  .links {
+    display: flex;
+  }
+  .linkedin {
+    fill: #0072b1;
   }
 }
 .grid {

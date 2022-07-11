@@ -56,7 +56,7 @@ export default {
         to: "/about",
       },
       knowButton: {
-        text: "Things I know",
+        text: "Tech I know",
         icon: "LightBulb",
         color: "#ffc107",
         to: "/technology",

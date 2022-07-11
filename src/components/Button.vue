@@ -1,10 +1,7 @@
 <template>
   <button @click="$router.push(text.to)" class="button">
     <div class="button__icon">
-      <component
-        :is="text.icon"
-        :iconStyle="'height:2rem;color:' + text.color"
-      ></component>
+      <component :is="text.icon" :iconStyle="'height:2rem;color:' + text.color"></component>
     </div>
     <p class="button__text">{{ text.text }}</p>
   </button>
@@ -30,6 +27,7 @@ export default {
 </script>
 <style lang="scss">
 .button {
+  z-index: 100;
   display: flex;
   font-family: Geomanist;
   font-weight: 600;
