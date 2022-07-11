@@ -34,18 +34,29 @@ export default {
         color: "#212529",
         to: "/",
       },
-      introduction:
-        "Hello, my name is Kody Van Sloten and I am from Alberta, Canada.",
+      introduction: "Hello, my name is Kody Van Sloten and I am from Alberta, Canada.",
       experiences: [
         {
-          time: "December 2020 to present",
+          time: " March 2022 - Present",
+          title: "Freelance Web Development",
+          description:
+            "Currently I am doing freelance work for software development companies and currently looking for more contracts",
+        },
+        {
+          time: " September 2021 - March 2022",
+          title: "Web Developer for Glean Asia",
+          description:
+            "During my time at Glean while I lived abroad in Cambodia I Built front-end components for Liferay-based software, designed databases and data structures for applicationsa and built full-stack internal tools using vue.js and node",
+        },
+        {
+          time: "December 2020 - September 2021",
           title: "Web Developer",
           description:
-            "I started a company called NF Web Solutions. During this time I built full stack web apps working in javascript frameworks",
+            "I started a company called NF Web Solutions. During this time I built full stack web apps working in Javascript frameworks.",
         },
         {
           time: "February 2020 - December 2020",
-          title: "Programming Bootcamp",
+          title: "Learning Web Development",
           description:
             "During this time I built myself a bootcamp to learn web design and development. ",
         },
@@ -95,17 +106,9 @@ export default {
   margin-bottom: 3rem;
   color: rgb(70, 70, 70);
   display: grid;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: minmax(300px, 400px) minmax(350px, 1fr);
   grid-gap: 2rem;
   transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
-  &__time {
-    grid-column: 1 / 3;
-  }
-  &__right {
-    grid-column: 3 / -1;
-    display: flex;
-    flex-direction: column;
-  }
   &__title {
     color: rgb(27, 27, 27);
     margin-bottom: 1.2rem;

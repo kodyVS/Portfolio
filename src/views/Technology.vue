@@ -68,9 +68,19 @@ export default {
           link: "https://vuejs.org/",
         },
         {
+          title: "Nuxt",
+          logo: "Nuxt.png",
+          link: "https://nuxtjs.org/",
+        },
+        {
           title: "Angular",
           logo: "Angular.png",
           link: "https://angular.io/",
+        },
+        {
+          title: "React",
+          logo: "React.png",
+          link: "https://reactjs.org/",
         },
         {
           title: "Typescript",
@@ -93,6 +103,11 @@ export default {
           link: "https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3",
         },
         {
+          title: "Sass",
+          logo: "Sass.png",
+          link: "https://sass-lang.com/",
+        },
+        {
           title: "Bootstrap",
           logo: "Bootstrap.png",
           link: "https://getbootstrap.com/",
@@ -112,9 +127,19 @@ export default {
           link: "https://firebase.google.com/",
         },
         {
+          title: "C#",
+          logo: "CSharp.png",
+          link: "https://docs.microsoft.com/en-us/dotnet/csharp/",
+        },
+        {
           title: "MongoDB",
           logo: "MongoDb.png",
           link: "https://www.mongodb.com/",
+        },
+        {
+          title: "SQL",
+          logo: "SQL.png",
+          link: "https://en.wikipedia.org/wiki/SQL",
         },
       ],
 
@@ -128,6 +153,11 @@ export default {
           title: "Git",
           logo: "Git.png",
           link: "https://git-scm.com/",
+        },
+        {
+          title: "Docker",
+          logo: "Docker.png",
+          link: "https://www.docker.com/",
         },
         {
           title: "Photoshop",

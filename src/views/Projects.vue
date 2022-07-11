@@ -47,11 +47,11 @@ export default {
           github: false,
         },
         {
-          image: "DiscordBot.png",
-          title: "Programming Server Bot",
-          description: "A magnificent bot built by a group for my programming discord server.",
-          tags: ["Python"],
-          link: "https://github.com/kodyVS/Discord-Bot-Development",
+          image: "OfficeWatch.png",
+          title: "Office Watch",
+          description: "A place for remote workers to find offices based off of their careers",
+          tags: ["Vue", "Javascript", "SCSS", "Typescript", "NestJS"],
+          link: "https://github.com/Nergy101/NWS.OfficeWatch",
           github: true,
         },
         {
@@ -59,7 +59,7 @@ export default {
           title: "Cambodia Food Reviews",
           description:
             "Headless CMS blog built with Nuxt and Ghost. Used for blogging food adventures in Cambodia.",
-          tags: ["Vue", "Ghost", "Nuxt", "Figma"],
+          tags: ["Vue", "Nuxt", "Ghost", "Figma"],
           link: "https://www.cambodiafoodreview.com",
           github: false,
         },
