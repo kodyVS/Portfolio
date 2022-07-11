@@ -43,7 +43,7 @@ export default {
           title: "Dai Ku Moto",
           description: "Website built for Dai Ku Moto's landing page",
           tags: ["Vue", "Javascript", "SCSS"],
-          link: "https://clever-tereshkova-772ddd.netlify.app/",
+          link: "https://daikumoto.netlify.app/",
           github: false,
         },
         {
