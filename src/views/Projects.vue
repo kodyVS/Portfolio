@@ -30,13 +30,21 @@ export default {
       },
       projects: [
         {
+          image: "Nemic.png",
+          title: "Nemic Hydroponics",
+          description: "Automation system for hydroponics farms",
+          tags: ["python", "Nuxt", "Vue", "SQL"],
+          link: "https://nemic-hydroponics.com/",
+          github: false,
+        },
+        {
           image: "TradesTek2.png",
           title: "TradesTek",
           description:
             "Web App for managing mechanical trades for scheduling, invoicing, jobsite management and finances",
           tags: ["Vue", "Vuetify", "Nodejs", "Mongodb"],
-          link: "",
-          github: false,
+          link: "https://github.com/kodyVS/TradesTek",
+          github: true,
         },
         {
           image: "daikumoto.png",

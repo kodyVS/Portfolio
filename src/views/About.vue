@@ -38,15 +38,14 @@ export default {
       experiences: [
         {
           time: " March 2022 - Present",
-          title: "Freelance Web Development",
-          description:
-            "Currently I am doing freelance work for software development companies and currently looking for more contracts",
+          title: "Nemic Hydroponics",
+          description: "Developing full automation solutions for hydroponic farms",
         },
         {
           time: " September 2021 - March 2022",
           title: "Web Developer for Glean Asia",
           description:
-            "During my time at Glean while I lived abroad in Cambodia I Built front-end components for Liferay-based software, designed databases and data structures for applicationsa and built full-stack internal tools using vue.js and node",
+            "During this time I lived abroad in Cambodia. I worked at Glean Asia building front-end components for Liferay-based software, designed databases and data structures for applications and built full-stack internal tools using vue.js and node",
         },
         {
           time: "December 2020 - September 2021",
@@ -58,7 +57,7 @@ export default {
           time: "February 2020 - December 2020",
           title: "Learning Web Development",
           description:
-            "During this time I built myself a bootcamp to learn web design and development. ",
+            "During this period, I had the opportunity to dive into my passion for programming and learn languages and frameworks such as javascript, typescript, HTML, css, Vue, Angular, and Node. I created my first app, which is a trades management software",
         },
         {
           time: "March 2011 - February 2020",
