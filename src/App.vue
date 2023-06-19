@@ -89,6 +89,7 @@ html {
 .router-view {
   z-index: 10;
   position: relative;
+
 }
 @keyframes turn {
   0% {
@@ -115,6 +116,7 @@ html {
     url("./assets/img/background-gears.jpg");
   height: 100vh;
   width: 100vw;
+  overflow: hidden;
   background-size: 200%;
   background-position: 40% 50%;
 }
