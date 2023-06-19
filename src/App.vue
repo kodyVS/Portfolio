@@ -4,7 +4,9 @@
     <img class="gear-image" :src="require('./assets/img/test-gearv1.0.1.png')" />
     <img class="gear-image2" :src="require('./assets/img/test-gearv1.0.1.png')" />
     <transition :name="slideName" mode="out-in">
-      <router-view class="router-view" />
+      <keep-alive>
+        <router-view class="router-view" />
+      </keep-alive>
     </transition>
   </div>
 </template>
@@ -12,10 +14,10 @@
 export default {
   computed: {
     slideName() {
-      return this.$route.name === 'Home' ? 'slide-home' : 'slide';
+      return this.$route.name === "Home" ? "slide-home" : "slide";
     },
-  }
-}
+  },
+};
 </script>
 <style>
 *,
@@ -84,7 +86,7 @@ html {
   animation: turn2 100s infinite linear;
   animation-direction: forwards;
 }
-.router-view{
+.router-view {
   z-index: 10;
   position: relative;
 }
