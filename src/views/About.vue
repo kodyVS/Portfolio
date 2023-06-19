@@ -3,20 +3,38 @@
     <Button :text="backButton"></Button>
     <div class="introduction">
       <h2 class="title introduction__title">Introduction</h2>
-      <p class="introduction__text">{{ introduction }}</p>
+      <p class="introduction__text">
+        {{ introduction }} Read more about my journey on
+        <a
+          href="https://the-mediocre-entrepreneur.com/"
+          target="_blank"
+          class="introduction__text__link"
+          >my blog</a
+        >
+      </p>
     </div>
 
     <div class="experience">
-      <h2 class="title experience__title">
-        Work Experience
-      </h2>
-      <div v-for="(experience, index) in experiences" :key="index" class="card">
+      <h2 class="title experience__title">Work Experience</h2>
+      <a
+        :href="experience.link"
+        target="_blank"
+        v-for="(experience, index) in experiences"
+        :key="index"
+        class="card"
+      >
         <p class="card__time">{{ experience.time }}</p>
         <div class="card__right">
           <h3 class="card__title">{{ experience.title }}</h3>
-          <p class="card__description">{{ experience.description }}</p>
+          <p
+            v-for="(description, i) in experience.description"
+            :key="'description' + i"
+            class="card__description"
+          >
+            • {{ description }}
+          </p>
         </div>
-      </div>
+      </a>
     </div>
   </div>
 </template>
@@ -37,33 +55,56 @@ export default {
       introduction: "Hello, my name is Kody Van Sloten and I am from Alberta, Canada.",
       experiences: [
         {
-          time: " March 2022 - Present",
+          time: "Feb 2023 - Present",
+          title: "Kybus Inc",
+          description: [
+            "Developing on-site automation technology for the conversion of animal manure into fertilizer.",
+            "Graduated the Thrive SVG Academy, an accelerator program specifically designed for groundbreaking agri-tech companies.",
+            "Developed and excecuted strategy for commercialization.",
+            "Successfully secured grant funding and built relationships with government agencies and private organizations.",
+            "Managed team of engineers and developers focused on product development, testing, and deployment, resulting in increased efficiency and optimization of the conversion process.",
+          ],
+          link: "https://www.kybus-nutrients.com/",
+        },
+        {
+          time: "March 2022 - November 2023",
           title: "Nemic Hydroponics",
-          description: "Developing full automation solutions for hydroponic farms",
+          description: [
+            "Developed complete solutions for hydroponic systems.",
+            " Developed automation technology to optimize plant growth environments.",
+          ],
+          link: "https://nemic-hydroponics.com/",
         },
         {
-          time: " September 2021 - March 2022",
+          time: "September 2021 - March 2022",
           title: "Web Developer for Glean Asia",
-          description:
-            "During this time I lived abroad in Cambodia. I worked at Glean Asia building front-end components for Liferay-based software, designed databases and data structures for applications and built full-stack internal tools using vue.js and node",
+          description: [
+            "During this time, I lived abroad in Cambodia. I worked at Glean Asia, building front-end components for Liferay-based software, designing databases and data structures for applications, and building full-stack internal tools using Vue.js and Node.",
+          ],
+          link: "https://www.glean.net/",
         },
         {
-          time: "December 2020 - September 2021",
+          time: "December 2020 - Present",
           title: "Web Developer",
-          description:
-            "I started a company called NF Web Solutions. During this time I built full stack web apps working in Javascript frameworks.",
+          description: [
+            "Developing web and mobile applications for field staff, as well as creating specialized internal tools for businesses. Optimizing corporate operations and enhancing daily productivity through automation and contemporary tooling.",
+          ],
+          link: "https://nfwebsolutions.ca",
         },
         {
           time: "February 2020 - December 2020",
           title: "Learning Web Development",
-          description:
-            "During this period, I had the opportunity to dive into my passion for programming and learn languages and frameworks such as javascript, typescript, HTML, css, Vue, Angular, and Node. I created my first app, which is a trades management software",
+          description: [
+            "During this period, I had the opportunity to dive into my passion for programming and learn languages and frameworks such as JavaScript, TypeScript, HTML, CSS, Vue, Angular, and Node. I created my first app, which is a trades management software.",
+          ],
         },
         {
           time: "March 2011 - February 2020",
           title: "Project Manager in Mechanical Trades",
-          description:
-            "I worked as a dual-ticketed mechanical contractor for Blackstone Mechanical, primarily focused on project management in commercial construction",
+          description: [
+            "I worked as a dual-ticketed mechanical contractor for Blackstone Mechanical, primarily focused on project management in commercial construction.",
+          ],
+          link: "http://www.blackstonemechanical.ca/",
         },
       ],
     };
@@ -92,6 +133,11 @@ export default {
     font-weight: 300;
     margin-bottom: 3rem;
     color: rgb(70, 70, 70);
+    &__link {
+      text-decoration: none;
+      color: #810b85;
+      font-weight: 600;
+    }
   }
 }
 .card {
@@ -114,6 +160,7 @@ export default {
     font-weight: 300;
     font-size: 3.2rem;
   }
+  text-decoration: none;
   &:hover {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   }

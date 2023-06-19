@@ -60,8 +60,8 @@
 
 <script>
 import Button from "@/components/Button.vue";
-import Github from "@/views/SVGIcons/Github.vue";
-import Linkedin from "@/views/SVGIcons/Linkedin.vue";
+import Github from "@/components/SVGIcons/Github.vue";
+import Linkedin from "@/components/SVGIcons/Linkedin.vue";
 export default {
   components: {
     Button,

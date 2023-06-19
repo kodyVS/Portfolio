@@ -7,12 +7,12 @@
   </button>
 </template>
 <script>
-import ArrowLeft from "@/views/SVGIcons/ArrowLeft.vue";
-import HTML from "@/views/SVGIcons/HTML.vue";
-import LightBulb from "@/views/SVGIcons/LightBulb.vue";
-import Message from "@/views/SVGIcons/Message.vue";
-import Person from "@/views/SVGIcons/Person.vue";
-import Star from "@/views/SVGIcons/Star.vue";
+import ArrowLeft from "@/components/SVGIcons/ArrowLeft.vue";
+import HTML from "@/components/SVGIcons/HTML.vue";
+import LightBulb from "@/components/SVGIcons/LightBulb.vue";
+import Message from "@/components/SVGIcons/Message.vue";
+import Person from "@/components/SVGIcons/Person.vue";
+import Star from "@/components/SVGIcons/Star.vue";
 export default {
   props: ["text"],
   components: {
