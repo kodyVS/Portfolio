@@ -116,7 +116,7 @@ html {
     url("./assets/img/background-gears.jpg");
   height: 100vh;
   width: 100vw;
-  overflow: hidden;
+  overflow-x: hidden;
   background-size: 200%;
   background-position: 40% 50%;
 }
