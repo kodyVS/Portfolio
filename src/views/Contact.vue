@@ -7,7 +7,8 @@
         <p class="contact__description">
           Interested in working together? <br />
           Fill out the form with some info. <br />
-          I will get back to you as soon as I can.
+          I will get back to you as soon as I can. <br />
+          Check out my <a style="text-decoration: none; color:blueviolet" href="https://nfwebsolutions.ca" target="_blank">companies website </a>for more info.
         </p>
         <div class="links">
           <div class="github" @click="goToRepo('https://github.com/kodyVS')">
