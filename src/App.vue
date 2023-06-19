@@ -1,12 +1,22 @@
 <template>
   <!-- CURRENTLY IN ANIMATION BRANCH -->
-  <div class="div">
-    <router-view class="router-view" />
+  <div class="main-page">
     <img class="gear-image" :src="require('./assets/img/test-gearv1.0.1.png')" />
     <img class="gear-image2" :src="require('./assets/img/test-gearv1.0.1.png')" />
+    <transition :name="slideName" mode="out-in">
+      <router-view class="router-view" />
+    </transition>
   </div>
 </template>
-
+<script>
+export default {
+  computed: {
+    slideName() {
+      return this.$route.name === 'Home' ? 'slide-home' : 'slide';
+    },
+  }
+}
+</script>
 <style>
 *,
 *:before,
@@ -18,8 +28,45 @@ html {
   font-size: 62.5%;
   box-sizing: border-box;
 }
+
+.slide-enter-active,
+.slide-leave-active {
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide-enter,
+.slide-leave-to {
+  position: absolute;
+  width: 100%;
+}
+
+.slide-enter {
+  transform: translateX(100%);
+}
+
+.slide-leave-to {
+  transform: translateX(-100%);
+}
+
+.slide-home-enter-active,
+.slide-home-leave-active {
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide-home-enter,
+.slide-home-leave-to {
+  position: absolute;
+  width: 100%;
+}
+
+.slide-home-enter {
+  transform: translateX(-100%);
+}
+
+.slide-home-leave-to {
+  transform: translateX(100%);
+}
 .gear-image {
-  z-index: -1;
   opacity: 0.2;
   height: 700px;
   position: fixed;
@@ -29,7 +76,6 @@ html {
   animation-direction: forwards;
 }
 .gear-image2 {
-  z-index: -1;
   opacity: 0.2;
   height: 700px;
   position: fixed;
@@ -37,6 +83,10 @@ html {
   left: 365px;
   animation: turn2 100s infinite linear;
   animation-direction: forwards;
+}
+.router-view{
+  z-index: 10;
+  position: relative;
 }
 @keyframes turn {
   0% {
@@ -58,13 +108,16 @@ html {
     transform: rotate(-30deg);
   }
 }
-body {
-  font-size: 1.6rem;
+.main-page {
   background-image: linear-gradient(270deg, rgba(255, 255, 255, 0.6) 0, white 100%),
     url("./assets/img/background-gears.jpg");
-  height: 95vh;
+  height: 100vh;
+  width: 100vw;
   background-size: 200%;
   background-position: 40% 50%;
+}
+body {
+  font-size: 1.6rem;
   font-family: Geomanist, Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

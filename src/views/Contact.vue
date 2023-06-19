@@ -100,7 +100,7 @@ export default {
 
 <style lang="scss">
 .contact {
-  margin-top: 4rem;
+  padding-top: 4rem;
   position: relative;
   height: 100vh;
   width: 100vw;

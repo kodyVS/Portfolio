@@ -115,7 +115,7 @@ export default {
 .about {
   margin: 0 auto;
   width: 80%;
-  margin-top: 4rem;
+  padding-top: 4rem;
 }
 .experience {
   padding-bottom: 10rem;

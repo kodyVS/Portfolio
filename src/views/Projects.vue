@@ -87,7 +87,7 @@ export default {
 </script>
 <style lang="scss">
 .projects {
-  margin: 4rem;
+  padding: 4rem;
   &__back-button {
     margin-bottom: 4rem;
     margin-left: 10rem;
@@ -115,7 +115,7 @@ export default {
     &__card {
       margin-right: 0rem;
     }
-    margin: 4rem 0 0 0;
+    padding: 4rem 0 0 0;
 
     &__back-button {
       margin-bottom: 4rem;

@@ -178,11 +178,11 @@ export default {
 .title {
   font-size: 4rem;
   font-weight: 300;
-  margin: 4rem 0 2rem 0;
+  padding: 4rem 0 2rem 0;
 }
 .technology {
   margin: 0 auto;
-  margin-top: 5rem;
+ padding-top: 5rem;
   width: 90%;
 }
 .frontend {
