@@ -38,13 +38,31 @@ export default {
           github: false,
         },
         {
+          image: "Boilerplate.png",
+          title: "Web App Boilerplate",
+          description:
+            "Production ready Nuxt 3 and Node.js + Typescript boilerplate for starting apps.",
+          tags: ["Nuxt", "Node.js", "Typescript", "MongoDb"],
+          link: "https://github.com/kodyVS/Nuxt-Vuetify-Express-Typescript-Boilerplate",
+          github: true,
+        },
+        {
           image: "TradesTek2.png",
           title: "TradesTek",
           description:
             "Web App for managing mechanical trades for scheduling, invoicing, jobsite management and finances",
-          tags: ["Vue", "Vuetify", "Nodejs", "Mongodb"],
+          tags: ["Vue", "Vuetify", "Nodejs", "MongoDb"],
           link: "https://github.com/kodyVS/TradesTek",
           github: true,
+        },
+        {
+          image: "FNConvert.png",
+          title: "FN Convert",
+          description:
+            "App made for converting mechanical trades workers field notes into invoice ready text",
+          tags: ["Nuxt", "OpenAI", "Nodejs", "Docker"],
+          link: "https://fn.nemic-hydroponics.com/",
+          github: false,
         },
         {
           image: "daikumoto.png",
