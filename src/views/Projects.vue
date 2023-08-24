@@ -61,7 +61,7 @@ export default {
           description:
             "App made for converting mechanical trades workers field notes into invoice ready text",
           tags: ["Nuxt", "OpenAI", "Nodejs", "Docker"],
-          link: "https://fn.nemic-hydroponics.com/",
+          link: "https://noteconverter.com/",
           github: false,
         },
         {
