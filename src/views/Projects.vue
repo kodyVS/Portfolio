@@ -86,7 +86,7 @@ export default {
           description:
             "Headless CMS blog built with Nuxt and Ghost. Used for blogging food adventures in Cambodia.",
           tags: ["Vue", "Nuxt", "Ghost", "Figma"],
-          link: "https://www.cambodiafoodreview.com",
+          link: "",
           github: false,
         },
         // {
