@@ -38,6 +38,15 @@ export default {
           github: false,
         },
         {
+          image: "FNConvert.png",
+          title: "FN Convert",
+          description:
+            "App that utilizes AI to convert field notes into professional notes ready for invoicing, summarizing, and exporting client facing documents.",
+          tags: ["Nuxt", "OpenAI", "Nodejs", "Docker"],
+          link: "https://noteconverter.com/",
+          github: false,
+        },
+        {
           image: "Boilerplate.png",
           title: "Web App Boilerplate",
           description:
@@ -54,15 +63,6 @@ export default {
           tags: ["Vue", "Vuetify", "Nodejs", "MongoDb"],
           link: "https://github.com/kodyVS/TradesTek",
           github: true,
-        },
-        {
-          image: "FNConvert.png",
-          title: "FN Convert",
-          description:
-            "App made for converting mechanical trades workers field notes into invoice ready text",
-          tags: ["Nuxt", "OpenAI", "Nodejs", "Docker"],
-          link: "https://noteconverter.com/",
-          github: false,
         },
         {
           image: "daikumoto.png",
