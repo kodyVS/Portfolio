@@ -31,7 +31,7 @@ export default {
       projects: [
         {
           image: "CrewConnect.png",
-          title: "Crew Connect",
+          title: "Crew Connect - 2024",
           description: "Marketplace for skilled trades",
           tags: ["Nuxt", "Node", "Vue", "Capacitor"],
           link: "https://crew-connect.ca",
@@ -39,7 +39,7 @@ export default {
         },
         {
           image: "Nemic.png",
-          title: "Nemic Hydroponics",
+          title: "Nemic Hydroponics - 2023",
           description: "Automation system for hydroponics farms",
           tags: ["python", "Nuxt", "Vue", "SQL"],
           link: "https://nemic-hydroponics.com/",
@@ -47,7 +47,7 @@ export default {
         },
         {
           image: "FNConvert.png",
-          title: "FN Convert",
+          title: "FN Convert - 2023",
           description:
             "App that utilizes AI to convert field notes into professional notes ready for invoicing, summarizing, and exporting client facing documents.",
           tags: ["Nuxt", "OpenAI", "Nodejs", "Docker"],
@@ -56,7 +56,7 @@ export default {
         },
         {
           image: "Boilerplate.png",
-          title: "Web App Boilerplate",
+          title: "Web App Boilerplate - 2022",
           description:
             "Production ready Nuxt 3 and Node.js + Typescript boilerplate for starting apps.",
           tags: ["Nuxt", "Node.js", "Typescript", "MongoDb"],
@@ -65,7 +65,7 @@ export default {
         },
         {
           image: "TradesTek2.png",
-          title: "TradesTek",
+          title: "TradesTek - 2021",
           description:
             "Web App for managing mechanical trades for scheduling, invoicing, jobsite management and finances",
           tags: ["Vue", "Vuetify", "Nodejs", "MongoDb"],
@@ -74,7 +74,7 @@ export default {
         },
         {
           image: "daikumoto.png",
-          title: "Dai Ku Moto",
+          title: "Dai Ku Moto - 2020",
           description: "Website built for Dai Ku Moto's landing page",
           tags: ["Vue", "Javascript", "SCSS"],
           link: "https://daikumoto.netlify.app/",
@@ -82,7 +82,7 @@ export default {
         },
         {
           image: "OfficeWatch.png",
-          title: "Office Watch",
+          title: "Office Watch - 2021",
           description: "A place for remote workers to find offices based off of their careers",
           tags: ["Vue", "Javascript", "SCSS", "Typescript", "NestJS"],
           link: "https://github.com/Nergy101/NWS.OfficeWatch",
