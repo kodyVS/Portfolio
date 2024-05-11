@@ -88,15 +88,6 @@ export default {
           link: "https://github.com/Nergy101/NWS.OfficeWatch",
           github: true,
         },
-        {
-          image: "CambodiaFoodReview.png",
-          title: "Cambodia Food Reviews",
-          description:
-            "Headless CMS blog built with Nuxt and Ghost. Used for blogging food adventures in Cambodia. (offline)",
-          tags: ["Vue", "Nuxt", "Ghost", "Figma"],
-          link: "",
-          github: false,
-        },
         // {
         //   image: "",
         //   title: "MEVN and Nuxt Boilerplate with Auth",
