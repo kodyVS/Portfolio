@@ -32,7 +32,7 @@ export default {
         {
           image: "CrewConnect.png",
           title: "Crew Connect",
-          description: "Marketplacew for skilled trades",
+          description: "Marketplace for skilled trades",
           tags: ["Nuxt", "Node", "Vue", "Capacitor"],
           link: "https://crew-connect.ca",
           github: false,
