@@ -73,14 +73,6 @@ export default {
           github: true,
         },
         {
-          image: "daikumoto.png",
-          title: "Dai Ku Moto - 2020",
-          description: "Website built for Dai Ku Moto's landing page",
-          tags: ["Vue", "Javascript", "SCSS"],
-          link: "https://daikumoto.netlify.app/",
-          github: false,
-        },
-        {
           image: "OfficeWatch.png",
           title: "Office Watch - 2021",
           description: "A place for remote workers to find offices based off of their careers",
@@ -88,6 +80,15 @@ export default {
           link: "https://github.com/Nergy101/NWS.OfficeWatch",
           github: true,
         },
+        {
+          image: "daikumoto.png",
+          title: "Dai Ku Moto - 2020",
+          description: "Website built for Dai Ku Moto's landing page",
+          tags: ["Vue", "Javascript", "SCSS"],
+          link: "https://daikumoto.netlify.app/",
+          github: false,
+        },
+
         // {
         //   image: "",
         //   title: "MEVN and Nuxt Boilerplate with Auth",
