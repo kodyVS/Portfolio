@@ -47,7 +47,7 @@ export default {
         to: "/",
       },
       introduction:
-        "Hello, my name is Kody Van Sloten and I am software developer from Alberta, Canada.",
+        "Hello, my name is Kody Van Sloten and I am software developer from Alberta, Canada. One of my greatest joys in life is being useful to others. If you think I can help, reach out!",
       experiences: [
         {
           time: "March 2024 - Present",
