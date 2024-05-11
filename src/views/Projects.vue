@@ -30,6 +30,14 @@ export default {
       },
       projects: [
         {
+          image: "CrewConnect.png",
+          title: "Crew Connect",
+          description: "Marketplacew for skilled trades",
+          tags: ["Nuxt", "Node", "Vue", "Capacitor"],
+          link: "https://crew-connect.ca",
+          github: false,
+        },
+        {
           image: "Nemic.png",
           title: "Nemic Hydroponics",
           description: "Automation system for hydroponics farms",

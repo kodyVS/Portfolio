@@ -4,13 +4,7 @@
     <div class="introduction">
       <h2 class="title introduction__title">Introduction</h2>
       <p class="introduction__text">
-        {{ introduction }} Read more about my journey on
-        <a
-          href="https://the-mediocre-entrepreneur.com/"
-          target="_blank"
-          class="introduction__text__link"
-          >my blog</a
-        >
+        {{ introduction }}
       </p>
     </div>
 
@@ -52,10 +46,27 @@ export default {
         color: "#212529",
         to: "/",
       },
-      introduction: "Hello, my name is Kody Van Sloten and I am from Alberta, Canada.",
+      introduction:
+        "Hello, my name is Kody Van Sloten and I am software developer from Alberta, Canada.",
       experiences: [
         {
-          time: "Feb 2023 - Present",
+          time: "March 2024 - Present",
+          title: "Crew Connect",
+          description: [
+            "Building a marketplace for contract trades workers. The marketplace shows workers ratings, calendar, tickets and certificates and allows employers to filter based on their needs.",
+          ],
+          link: "https://crew-connect.ca",
+        },
+        {
+          time: "December 2020 - Present",
+          title: "Software Developer",
+          description: [
+            "Developing web and mobile applications for field staff, as well as creating specialized internal tools for businesses. Optimizing corporate operations and enhancing daily productivity through automation and contemporary tooling.",
+          ],
+          link: "https://nfwebsolutions.ca",
+        },
+        {
+          time: "Feb 2023 - Feb 2024",
           title: "Kybus Inc",
           description: [
             "Developing on-site automation technology for the conversion of animal manure into fertilizer.",
@@ -67,29 +78,12 @@ export default {
           link: "https://www.kybus-nutrients.com/",
         },
         {
-          time: "March 2022 - November 2023",
-          title: "Nemic Hydroponics",
-          description: [
-            "Developed complete solutions for hydroponic systems.",
-            " Developed automation technology to optimize plant growth environments.",
-          ],
-          link: "https://nemic-hydroponics.com/",
-        },
-        {
           time: "September 2021 - March 2022",
           title: "Web Developer for Glean Asia",
           description: [
             "During this time, I lived abroad in Cambodia. I worked at Glean Asia, building front-end components for Liferay-based software, designing databases and data structures for applications, and building full-stack internal tools using Vue.js and Node.",
           ],
           link: "https://www.glean.net/",
-        },
-        {
-          time: "December 2020 - Present",
-          title: "Web Developer",
-          description: [
-            "Developing web and mobile applications for field staff, as well as creating specialized internal tools for businesses. Optimizing corporate operations and enhancing daily productivity through automation and contemporary tooling.",
-          ],
-          link: "https://nfwebsolutions.ca",
         },
         {
           time: "February 2020 - December 2020",
